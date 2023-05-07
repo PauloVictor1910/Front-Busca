@@ -15,12 +15,18 @@
     justify-content: space-between;
     align-items: center;
     background-color: aquamarine;
+    border-style: solid;
+    border-bottom-width: 5px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-color: #fff;
   }
   
   .logo {
     font-size: 1.5rem;
     text-decoration: none;
     color: #fff;
+    margin-left: 15px;
   }
   
   .menu {
@@ -75,6 +81,8 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-right: 4px;
+    margin-top: 10px;
   }
   
   button[type="submit"] {
@@ -85,6 +93,8 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 15px;
+    margin-top: 10px;
   }
   
   button[type="submit"]:hover {
@@ -99,6 +109,26 @@
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     color: #333;
+  }
+  
+  #sobre-nos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  h2 {
+      color: orange;
+  }
+
+  .carousel {
+    max-width: 600px; /* ou outro valor desejado */
+    margin: auto; /* centralizar na página */
+  }
+  
+  /* Redimensionar as imagens para ajustar ao tamanho do carousel */
+  .carousel img {
+    width: 100%;
+    height: auto;
   }
   
   
