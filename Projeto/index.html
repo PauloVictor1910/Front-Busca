@@ -4,8 +4,9 @@
     <title>Página de Busca</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style01.css">
   </head>
   <nav>
     <a href="#" class="logo">Aprendex</a>
@@ -15,17 +16,24 @@
     <li><a href="#">Cadastro</a></li>
     <li><a href="#">Sobre</a></li>
     </ul>
-    <form>
-    <input type="text" placeholder="Digite aqui seu Curso"><br>
-    <button type="submit">Buscar</button>
-    </form>
+    <main>
+      <div class="SearchBox">
+          <input type="text" class="SearchBox-input" placeholder="Procure seu curso aqui">
+              <button class="SearchBox-button">
+                <i class="SearchBox-icon  material-icons">search</i>
+              </button>
+      </div>
+  </main>
 </nav>
   <body>
     <div class="container">
-      <h1>Página de Busca</h1>
-      <div class="results">
-        <p>Os resultados da sua busca aparecerão aqui.</p>
-      </div>
+     <h1>Olá, seja bem vindo ao Aprendex sua plataforma onde contém todos os cursos disponíveis em Diadema</h1>
+     <br>
+     <header>
+      <a href="#" class="btn-2">Inscreva - se</a>
+      <a href="#" class="btn-2">Explore os Cursos</a>
+    </header>
+    <br><br>
       <section id="sobre-nos">
         <h2>Sobre Nós</h2>
         <p>Somos uma plataforma de busca de cursos gratuitos em Diadema. Nosso objetivo é tornar o acesso à educação e ao conhecimento mais acessível para todos, sem que isso gere uma obrigação financeiro.
@@ -45,8 +53,7 @@
             Empatia e respeito com todos os usuários da plataforma.
             Inovação e atualização constante para oferecer a melhor experiência ao usuário.
             Responsabilidade social, contribuindo para a transformação da realidade da população de Diadema.</p>
-      </section>
-
+        </section>
     </div>
   </body>
 </html>

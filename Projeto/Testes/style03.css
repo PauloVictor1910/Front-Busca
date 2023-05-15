@@ -1,0 +1,86 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+html{
+  font-size:100%;
+}
+
+body{
+  background-color:#fafafa;
+}
+.section-cursos{
+  width:90%;
+  max-width:1200px;
+  margin:1rem auto;
+  display:flex;
+  justify-content:space-between;
+  background-color:#ccc;
+  flex-wrap:wrap;
+  }
+.section-cursos article img{
+  max-width:100%;
+  border-radius:5px;
+  margin-bottom:  10px;
+}
+
+.section-cursos article{
+  position:relative;
+  padding:.75rem;
+  border-radius:3px;
+  text-align:center;
+  width:24%;
+  background-color:#EBEBEB;
+  color:#919191;
+  margin-bottom:10px;
+  background-color:white;
+  
+}
+.section-cursos h3{
+  font-size:1.5rem;
+  padding-bottom:10px;
+}
+.section-cursos p{
+  padding-bottom:3rem;
+}
+
+.section-cursos a{
+  text-decoration:none;
+  color:#fff;
+  display:block;
+  padding:.5rem 1.25rem;
+  background-color:#1D97FF;
+  width:50%;
+  margin:20px auto;
+  border-radius:5px;
+  position:absolute;
+  bottom:-5px;
+  left:0;
+  right:0;
+   }
+
+
+/*----------------------------------------------------
+$media querys
+-----------------------------------------------------*/
+@media all and (max-width:960px) {
+  
+ .section-cursos{
+   justify-content:space-around;
+ }
+  .section-cursos article{
+    width:32.3333%;
+    }
+}
+
+@media all and (max-width:768px) {
+  
+ 
+  .section-cursos article{
+    width:49%;
+      
+  }
+}
+@media all and (max-width:480px) {
+
+  .section-cursos article{
+    width:100%;
+     }
+}
