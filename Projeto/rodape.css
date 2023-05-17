@@ -1,0 +1,143 @@
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  .social-icons a.instragram img {
+    margin-top: 5px;
+  }
+  
+  .social-icons a.twitter img {
+    margin-top: 5px;
+  }
+  
+
+  .social-icons a.internet img {
+    margin-top: 5px;
+  }
+
+  .social-icons a.mensagem img {
+    margin-top: 5px;
+  }
+
+  .social-icons a.telefone img {
+    margin-top: 5px;
+  }
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 50px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-right: 9px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.instragram:hover
+{
+  background-color: #e2725b;
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.internet:hover
+{
+  background-color:#989a91;
+}
+.social-icons a.mensagem:hover
+{
+  background-color:green;
+}
+
+.social-icons a.telefone:hover
+{
+  background-color: red;
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

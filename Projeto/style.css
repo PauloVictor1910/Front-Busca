@@ -22,7 +22,9 @@ nav {
 
 .logo {
   width: 100px;
+  margin-left: 20px;
 }
+
 
 
 .menu {
@@ -77,18 +79,18 @@ h1 {
 
 header a {
   text-decoration: none;
-  background-color: bisque; /* cor do botao inicial */
+  background-color: #09356f; /* cor do botao inicial */
   display: inline-block;
   padding:10px 10px;
   margin:10px 10px;
   border:1px solid black;
   border-radius:5px;
   box-shadow: 0 2px 3px black;
-  color: black; /* cor da letra */
+  color: white; /* cor da letra */
   }
 
 header a:hover {
-  background-color: #914a91;
+  background-color: #09356f; 
   color: white;
   box-shadow: 0 2px 3px black;
   }
