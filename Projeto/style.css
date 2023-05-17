@@ -1,7 +1,7 @@
-* {
+* {   /* Arrumar */
   box-sizing: border-box;
 }
-
+/* arrumar */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -20,13 +20,10 @@ nav {
   border-color: #fff;
 }
 
-
 .logo {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #fff;
-  margin-left: 15px;
+  width: 100px;
 }
+
 
 .menu {
   list-style: none;
@@ -60,6 +57,7 @@ nav {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+/* Arrumar tambem */
 h1 {
   --main-font: 'roboto';
 	--font-bold: 700;
@@ -67,32 +65,33 @@ h1 {
 }
 
 
-
+/* Arrumar essa parte */
 #sobre-nos {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #333;
 }
-h2 {
-    color: orange;
-}
+
+
+
 
 header a {
-	text-decoration: none;
-	background-color: bisque;
-	display: inline-block;
-	padding:10px 10px;
-	margin:10px 10px;
-	border:1px solid black;
-	border-radius:5px;
+  text-decoration: none;
+  background-color: bisque; /* cor do botao inicial */
+  display: inline-block;
+  padding:10px 10px;
+  margin:10px 10px;
+  border:1px solid black;
+  border-radius:5px;
   box-shadow: 0 2px 3px black;
+  color: black; /* cor da letra */
+  }
 
-}
 header a:hover {
-	background-color: #914a91;
-	color:black;
-	box-shadow: 0 2px 3px black;
-}
+  background-color: #914a91;
+  color: white;
+  box-shadow: 0 2px 3px black;
+  }
 
 @keyframes btn2 {
 	0% {
@@ -124,9 +123,16 @@ header a:hover {
 
 
 
+
+
+
+
+
+
+
 /* Estilos para telas menores */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   nav {
     flex-direction: column;
   }
@@ -136,13 +142,6 @@ header a:hover {
     margin-top: 10px;
   }
   
-  input[type="text"] {
-    width: 100%;
-  }
-  
-  button[type="submit"] {
-    width: 100%;
-  }
 }
   
   

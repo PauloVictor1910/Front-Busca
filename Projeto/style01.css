@@ -2,84 +2,134 @@
 	--primary-color: white;
 	--accent-color: #ff7a00;
 	--text-color: #263238;
-    
-}
-* { box-sizing: border-box }
-main{ 
-    display: flex;
-    justify-content: right;
-    margin-bottom: 10px;
   }
-input, 
-button {
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+  main {
+	display: flex;
+	justify-content: right;
+	margin-bottom: 10px;
+  }
+  
+  input,
+  button {
 	border: none;
 	background: none;
 	outline: 0;
-}
-button {cursor: pointer}
-.SearchBox-input::placeholder {/* No es un seudoelemento estandar */
- color:black;
-	opacity: .6;
-}
-/* Chrome, Opera ySafari */
-.SearchBox-input::-webkit-input-placeholder {
-  color: black;
-}
-/* Firefox 19+ */
-.SearchBox-input::-moz-placeholder {
-  color: white;
-}
-/* IE 10+ y Edge */
-.SearchBox-input:-ms-input-placeholder {
-  color: white;
-}
-/* Firefox 18- */
-#formGroupExampleInput:-moz-placeholder {
-  color: white;
-}
-
-
-
-.SearchBox {
-    --height: 50px;
-    display: flex;
-    margin-right: 4px;
-    margin-top: 10px;
-    border-radius: var(--height);
-    background-color: var(--primary-color);
-    height: var(--height);
   }
+  
+  button {
+	cursor: pointer;
+  }
+  
+  .SearchBox-input::placeholder {
+	/* No es un seudoelemento estandar */
+	color: black;
+	opacity: 0.6;
+  }
+  
+  /* Chrome, Opera e Safari */
+  .SearchBox-input::-webkit-input-placeholder {
+	color: black;
+  }
+  
+  /* Firefox 19+ */
+  .SearchBox-input::-moz-placeholder {
+	color: white;
+  }
+  
+  /* IE 10+ e Edge */
+  .SearchBox-input:-ms-input-placeholder {
+	color: white;
+  }
+  
+  /* Firefox 18- */
+  #formGroupExampleInput:-moz-placeholder {
+	color: white;
+  }
+  
+  .SearchBox {
+	--height: 50px;
+	display: flex;
+	margin-right: 4px;
+	margin-top: 10px;
+	border-radius: var(--height);
+	background-color: var(--primary-color);
+	height: var(--height);
+  }
+  
+  .SearchBox.active:hover .SearchBox-input,
+  .SearchBox:focus-within .SearchBox-input {
+	padding-left: 2em;
+	padding-right: 1em;
+	width: 270px;
+  }
+  
+  .SearchBox:hover .SearchBox-input {
+	padding-left: 2em;
+	padding-right: 1em;
+	width: 40px;
+  }
+  
+  .SearchBox-input {
+	width: 0;
+	font-size: 1.2em;
+	color: black;
+	transition: 0.45s;
+  }
+  
+  .SearchBox-button {
+	display: flex;
+	border-radius: 50%;
+	width: var(--height);
+	height: var(--height);
+	background-color: var(--accent-color);
+	transition: 0.3s;
+  }
+  
+  .SearchBox-button:active {
+	transform: scale(0.75);
+  }
+  
+  .SearchBox-icon {
+	margin: auto;
+	color: #fff;
+  }
+  
+  @media screen and (min-width: 400px) {
 	.SearchBox:hover .SearchBox-input {
-		padding-left: 2em;
-		padding-right: 1em;
-		width: 40px;
+	  width: 270px;
 	}
+  }
+  
+  @media screen and (max-width: 400px) {
+	main {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	.SearchBox {
+	  margin-right: 0;
+	  margin-bottom: 10px;
+	  width: 100%;
+	}
+  
 	.SearchBox-input {
-		width: 0;
-		font-size: 1.2em;
-		color: black;
-		transition: .45s;
+	  font-size: 1em;
 	}
-	.SearchBox-button {
-		display: flex;
-		border-radius: 50%;
-		width: var(--height);
-		height: var(--height);
-		background-color: var(--accent-color);
-		transition: .3s;
-        
+  
+	.SearchBox.active:hover .SearchBox-input,
+	.SearchBox:focus-within .SearchBox-input {
+	  width: 80%;
 	}
-	.SearchBox-button:active  {
-		transform: scale(.75);
-	}
-	.SearchBox-icon {
-		margin: auto;
-		color: #fff;
-	}
-
-
-@media screen and (min-width: 400px){
+  
 	.SearchBox:hover .SearchBox-input {
-		width: 270px;
+	  width: 80%;
 	}
-}
+  }
+  
+  
+  
