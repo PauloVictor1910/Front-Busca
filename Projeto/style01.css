@@ -1,6 +1,6 @@
 :root {
-	--primary-color: black;
-	--accent-color: #f50057;
+	--primary-color: white;
+	--accent-color: #ff7a00;
 	--text-color: #263238;
     
 }
@@ -18,12 +18,12 @@ button {
 }
 button {cursor: pointer}
 .SearchBox-input::placeholder {/* No es un seudoelemento estandar */
- color:white;
+ color:black;
 	opacity: .6;
 }
 /* Chrome, Opera ySafari */
 .SearchBox-input::-webkit-input-placeholder {
-  color: white;
+  color: black;
 }
 /* Firefox 19+ */
 .SearchBox-input::-moz-placeholder {
@@ -57,7 +57,7 @@ button {cursor: pointer}
 	.SearchBox-input {
 		width: 0;
 		font-size: 1.2em;
-		color: #fff;
+		color: black;
 		transition: .45s;
 	}
 	.SearchBox-button {

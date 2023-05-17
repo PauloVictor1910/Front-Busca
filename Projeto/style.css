@@ -5,14 +5,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: orchid;
+  background-color: #d9d9d9;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aquamarine;
+  background-color: black;
   border-style: solid;
   border-bottom-width: 5px;
   border-top-width: 0;
@@ -39,7 +39,7 @@ nav {
 
 .menu a {
   text-decoration: none;
-  color: #fff;
+  color: #ff7a00;
   font-size: 1.2rem;
   padding: 5px;
   transition: all 0.3s ease-in-out;
@@ -55,7 +55,7 @@ nav {
   max-width: 1100px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
@@ -66,15 +66,7 @@ h1 {
 	--font-regular: 400;
 }
 
-.results {
-  border: 2px solid #ccc;
-  padding: 20px;
-  text-align: left;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  color: #333;
-}
+
 
 #sobre-nos {
   font-family: Arial, Helvetica, sans-serif;
@@ -87,18 +79,19 @@ h2 {
 
 header a {
 	text-decoration: none;
-	color: black;
+	background-color: bisque;
 	display: inline-block;
 	padding:10px 10px;
 	margin:10px 10px;
 	border:1px solid black;
 	border-radius:5px;
+  box-shadow: 0 2px 3px black;
 
 }
 header a:hover {
-	background-color: burlywood;
+	background-color: #914a91;
 	color:black;
-	box-shadow: 0 2px 3px black
+	box-shadow: 0 2px 3px black;
 }
 
 @keyframes btn2 {
